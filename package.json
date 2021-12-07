@@ -8,7 +8,7 @@
     "dev:remix": "remix dev",
     "dev:css": "tailwindcss -i ./app/styles/global.css -o ./app/styles/app.css --watch",
     "build:remix": "remix build",
-    "build:css": "cross-env NODE_ENV=production tailwindcss -i ./app/styles/tailwind.css -o ./app/styles/app.css --minify",
+    "build:css": "cross-env NODE_ENV=production tailwindcss -i ./app/styles/global.css -o ./app/styles/app.css --minify",
     "build": "yarn build:css && yarn build:remix",
     "postinstall": "remix setup node"
   },
