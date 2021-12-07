@@ -39,7 +39,7 @@ export let meta: MetaFunction = () => {
     "og:image": "https://kuso-api.vercel.app/kuso-ogp.jpg",
     "og:type": "website",
     "twitter:card": "summary_large_image",
-    "twitter:image": "https://startcrowd.club/images/startcrowdimage.jpg",
+    "twitter:image": "https://kuso-api.vercel.app/kuso-ogp.jpg",
   };
 };
 
