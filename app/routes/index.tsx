@@ -37,7 +37,9 @@ export let meta: MetaFunction = () => {
       "This is a very useless API at any time and in any scene. Using this API doesn't change anything at all in your life.",
     "og:url": "https://kuso-api.vercel.app",
     "og:image": "https://kuso-api.vercel.app/kuso-ogp.jpg",
-    "twitter:image": "summary_large_image",
+    "og:type": "website",
+    "twitter:card": "summary_large_image",
+    "twitter:image": "https://startcrowd.club/images/startcrowdimage.jpg",
   };
 };
 
@@ -468,9 +470,13 @@ export default function Index() {
                     </p>
                   </li>
                 </ul>
-                <button className="inline-block py-4 w-full text-sm text-center font-medium leading-normal text-white rounded bg-purple-400 hover:bg-purple-500 transition duration-200">
+                <a
+                  href="https://poiit.me/yahsan2/t/1468112296195289092"
+                  target="_blank"
+                  className="inline-block py-4 w-full text-sm text-center font-medium leading-normal text-white rounded bg-purple-400 hover:bg-purple-500 transition duration-200"
+                >
                   [PR] poiit.me で投げ銭する
-                </button>
+                </a>
               </div>
             </div>
             <div className="w-full lg:w-1/3 px-3 mb-6 lg:mb-0">
