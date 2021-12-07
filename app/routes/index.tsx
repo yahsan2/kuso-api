@@ -174,7 +174,7 @@ export default function Index() {
               Why do you choose kuso api?
             </span>
             <h2 className="mt-8 mb-10 text-4xl font-semibold font-heading">
-              This is an amazing api because it's made with remixjs!
+              This is an amazing api because this website is made with remixjs!
               <br />I just wanted to create app based on remix :D
             </h2>
           </div>
