@@ -29,10 +29,12 @@ export let loader: LoaderFunction = async (): Promise<IndexData> => {
 // https://remix.run/api/conventions#meta
 export let meta: MetaFunction = () => {
   return {
-    title: "Remix Starter",
-    description: "Welcome to remix!",
+    title: "Kuso API",
+    description:
+      "This is a very useless API at any time and in any scene. Using this API doesn't change anything at all in your life.",
     "og:title": "Kuso API",
-    "og:description": "Welcome to remix!",
+    "og:description":
+      "This is a very useless API at any time and in any scene. Using this API doesn't change anything at all in your life.",
     "og:url": "https://kuso-api.vercel.app",
     "og:image": "https://kuso-api.vercel.app/kuso-ogp.jpg",
     "twitter:image": "summary_large_image",
