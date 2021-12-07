@@ -553,7 +553,7 @@ export default function Index() {
                 target="_blank"
                 className="bg-red-400  hover:bg-red-300"
               >
-                website.
+                SSSAPI site.
               </a>
             </h2>
           </div>
